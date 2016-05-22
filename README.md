@@ -20,3 +20,4 @@ oc describe bsi my-mongodb
 ```
 
 ##  浏览器登陆nifi并创建GetMongo节点
+![](Screenshot from 2016-05-22 23-26-36.png)

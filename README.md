@@ -11,7 +11,6 @@ oc expose svc apache-nifi-ocrhestration
 oc new-backingserviceinstance my-mongodb \
 --backingservice_name=MongoDB \
 --planid=257C6C2B-A376-4551-90E8-82D4E619C852
-
 oc bind my-mongodb apache-nifi-ocrhestration
 ```
 

@@ -7,6 +7,7 @@ oc expose svc apache-nifi-ocrhestration
 
 ##  创建mongo后端服务
 ```
+选择mongodb中的ShareandCommon计划
 oc new-backingserviceinstance my-mongodb \
 --backingservice_name=MongoDB \
 --planid=257C6C2B-A376-4551-90E8-82D4E619C852
